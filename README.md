@@ -5,7 +5,7 @@ This Python script uses the Pygame library to run a simple experiment for testin
 The screen will display a blank background for a set amount of time with a single white frame inserted at a random point. 
 The frame rate (FPS) and the number of frames for the fade effect can be parameterized.
 To simply see if you can perceive an individual frame, set fade frames to 1.
-Please note that setting the FPS above your display's refresh rate is best done with a fade, as a single frame might not even display on a lower refresh rate than framerate.
+Please note that setting the FPS above your display's refresh rate is best done with a fade, as higher FPS than refresh rate means you'll only be seeing a partial frame at best.
 
 ## Requirements
 - Python 3.x
